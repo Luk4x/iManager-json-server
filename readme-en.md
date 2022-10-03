@@ -14,17 +14,30 @@
 
 # 🪙 iManager Project API
 > Access the project online **[HERE](https://luk4x-imanager-json-server.herokuapp.com/)**
+
+<br>
+<p align="center">
+  <a href="#-technologies-used">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-routes-and-examples">Routes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-cloning-the-project">Cloning</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contributor-contact">Contact</a>
+</p>
 <br>
 
-## Technologies used
+## 🚀 Technologies Used
+
 - [NodeJS](https://nodejs.org)
 - [JSON-Server](https://yarnpkg.com/package/json-server)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Yarn](https://yarnpkg.com/)
 
-## About
-This project is a JSON-Server API that registers projects and stores the project categories of a management platform - the iManager, serving as the basis for its [Interface](https://github.com/Luk4x/iManager ) that I developed essentially in [ReactJS](https://pt-br.reactjs.org).
+## 📝 About
 
-### Routes and Examples
+This project is a JSON-Server API that registers projects and stores the project categories of **iManager**, a business management web platform, serving as the basis for its [Interface](https://github. com/Luk4x/iManager) that I developed essentially in ReactJS.
+
+### 📃 Routes and Examples
+
 -   `POST /projects`: This route takes the _project name_, the _project budget_ and the _project category_. This information is passed by the `body` of the request, and based on it a new project is registered inside the projects array, in the following format:
     
     ```js
@@ -116,26 +129,28 @@ This project is a JSON-Server API that registers projects and stores the project
 
 -   `GET /categories`: This route returns all existing categories in the `categories` array.
 
-## Como usar
-To clone and run this project, you will need [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) or higher, and preferably an API Client such as [Insomnia](https://insomnia.rest/) (but can also be accessed via the browser) installed on your computer.<br>In the terminal:
+## 📖 Cloning the Project
+
+To clone and run this project on your computer you will need [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) or higher, and preferably an API Client such as [Insomnia](https://insomnia.rest/) (but can also be accessed through the browser) previously installed.<br>In the terminal:
 
 ```bash
 # Clone this repository with:
-$ git clone https://github.com/Luk4x/iManager-json-server.git
+> git clone https://github.com/Luk4x/iManager-json-server.git
 
 # Enter the repository with:
-$ cd iManager-json-server
+> cd iManager-json-server
 
 # Install dependencies with: 
-$ yarn install
+> yarn install
 
 # Run the project with:
-$ yarn start
+> yarn start
 
 # The server will start at http://localhost:5000/, and you can explore it using Insomnia or a browser.
 ```
 
-## Contributor Contact
+## 🤝 Contributor Contact
+
 <table>
   <tr>
     <td align="center">
@@ -148,3 +163,7 @@ $ yarn start
     </td>
   </tr>
 </table>
+
+<p align="right">
+  <a href="#-imanager-project-api">Back to Top</a>
+</p>
