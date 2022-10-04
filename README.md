@@ -131,7 +131,7 @@ Esse projeto é uma JSON-Server API que realiza o cadastro de projetos e armazen
 
 ## 📖 Clonando o Projeto
 
-Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) ou superior, e de preferência, um API Client como o [Insomnia](https://insomnia.rest/) (mas também pode ser acessado pelo navegador) previamente instalados.<br>No terminal:
+Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) ou superior, [Yarn](https://yarnpkg.com/), e de preferência, um API Client como o [Insomnia](https://insomnia.rest/) (mas também pode ser acessado pelo navegador) previamente instalados.<br>No terminal:
 
 ```bash
 # Clone esse repositório com:
@@ -146,7 +146,7 @@ Para clonar e executar este projeto em seu computador, você precisará do [Git]
 # Execute o projeto com:
 > yarn start
 
-# O servidor irá iniciar em http://localhost:5000/, e você pode explorá-lo usando o Insomnia ou um navegador.
+# Feito isso, você já poderá acessar o projeto pelo link que aparecerá no terminal! (algo como http://localhost:3000/ ou http://127.0.0.1:5173/)
 ```
 
 ## 🤝 Contato dos Contribuintes
