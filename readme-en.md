@@ -131,7 +131,7 @@ This project is a JSON-Server API that registers projects and stores the project
 
 ## 📖 Cloning the Project
 
-To clone and run this project on your computer you will need [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) or higher, and preferably an API Client such as [Insomnia](https://insomnia.rest/) (but can also be accessed through the browser) previously installed.<br>In the terminal:
+To clone and run this project on your computer you will need [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) or higher, [Yarn](https://yarnpkg.com/), and preferably an API Client such as [Insomnia](https://insomnia.rest/) (but can also be accessed through the browser) previously installed.<br>In the terminal:
 
 ```bash
 # Clone this repository with:
@@ -146,7 +146,7 @@ To clone and run this project on your computer you will need [Git](https://git-s
 # Run the project with:
 > yarn start
 
-# The server will start at http://localhost:5000/, and you can explore it using Insomnia or a browser.
+# Once this is done, you will be able to access the project through the link that will appear in the terminal! (something like http://localhost:3000/ or http://127.0.0.1:5173/)
 ```
 
 ## 🤝 Contributor Contact
