@@ -50,7 +50,7 @@
                 "name": "Design"
             },
             "cost": 9100,
-            "services": 
+            "services": [
                 {
                     "name": "Contratação de Designer Gráfico",
                     "cost": "4300",
@@ -96,13 +96,13 @@
                 {
                     "name": "Contratação de Analista de Sistemas",
                     "cost": "5000",
-                    "desc": "Reponsável pela administração do banco de dados.",
+                    "desc": "Responsável pela administração do banco de dados.",
                     "id": "2557ef1f-a088-46e8-8950-0c1386dc2f54"
                 },
                 {
                     "name": "Contratação de Dev PHP",
                     "cost": "4100",
-                    "desc": "Reponsável por criar um sistema de envio e gerenciamento de Emails.",
+                    "desc": "Responsável por criar um sistema de envio e gerenciamento de Emails.",
                     "id": "11k4xb08-b316-4f45-luf5-573empy6f438"
                 }
             ],
