@@ -1,78 +1,111 @@
 {
     "projects": [
         {
-            "name": "Projeto1",
-            "budget": "60000",
+            "name": "Idealização do Site",
+            "budget": "20000",
             "category": {
-                "id": "2",
-                "name": "Desenvolvimento"
+                "id": "4",
+                "name": "Planejamento"
             },
-            "cost": 23100,
+            "cost": 20000,
             "services": [
                 {
-                    "name": "Contratar Dev Back-End",
-                    "cost": 4500,
-                    "desc": "Responsável pela manutenção da comunicação entre o cliente e o servidor.",
-                    "id": "25560b69-901c-4677-90db-786fd98c83a9"
+                    "name": "Gestor de Projetos",
+                    "cost": 11000,
+                    "desc": "Responsável por gerenciar os projetos que estão em desenvolvimento na sua empresa.",
+                    "id": "2582fa69-901c-4677-90db-786fd98c83a9"
                 },
                 {
-                    "name": "Contratar Dev Full-Stack Pleno",
-                    "cost": 5000,
-                    "desc": "Responsável por auxiliar os profissionais Front-End e Back-End.",
-                    "id": "0b99c176-1a02-40a3-a0c1-dafcc02b8fb7"
-                },
-                {
-                    "name": "Contratar Dev Front-End",
-                    "cost": 4600,
-                    "desc": "Responsável pelo desenvolvimento do layout da aplicação.",
-                    "id": "dea206b3-409d-4b3f-9493-4bc2d27466a2"
-                },
-                {
-                    "name": "Contratar Designer",
-                    "cost": "4000",
-                    "desc": "Responsável pela construção do design da aplicação.",
-                    "id": "11fe4b08-b316-4f45-98f5-573e4d56f438"
-                },
-                {
-                    "name": "Contratar Analista de Sistemas",
-                    "cost": "5000",
-                    "desc": "Será reponsável pela administração do banco de dados.",
-                    "id": "2557ef1f-a088-46e8-8950-0c1386dc2f54"
+                    "name": "Administrador de Empresas",
+                    "cost": 9000,
+                    "desc": "Responsável pela tomada de decisão e condução de estratégias no meio corporativo.",
+                    "id": "0bx92c17-1a02-f9a3-a0c1-dafcc02b8fb7"
                 }
             ],
             "id": 1
         },
         {
-            "name": "4634",
-            "budget": "6436",
+            "name": "Hospedagem do Site",
+            "budget": "10000",
             "category": {
                 "id": 1,
                 "name": "Infra"
             },
-            "cost": 0,
-            "services": [],
+            "cost": 4200,
+            "services": [
+                {
+                    "name": "Comprar Hospedagem",
+                    "cost": 4200,
+                    "desc": "Responsável pela hospedagem do Client-side e Server-side do Site.",
+                    "id": "0kl92c17-1a02-f9a3-h2c1-dafclp4b8fb7"
+                }
+            ],
             "id": 2
         },
         {
-            "name": "Projeto4",
-            "budget": "100000",
+            "name": "Projeção do Site",
+            "budget": "40000",
             "category": {
                 "id": "3",
                 "name": "Design"
             },
-            "cost": 0,
-            "services": [],
+            "cost": 9100,
+            "services": 
+                {
+                    "name": "Contratação de Designer Gráfico",
+                    "cost": "4300",
+                    "desc": "Responsável pela projeção geral do design da aplicação..",
+                    "id": "11fe4b08-b316-4f45-98f5-573e4d56f438"
+                },
+                {
+                    "name": "Contratação de UI Designer",
+                    "cost": "4800",
+                    "desc": "Responsável pela projeção de layouts e fluxo de interação entre o usuário e a aplicação..",
+                    "id": "119jlb08-b316-4ou5-98f5-573epm56f438"
+                }
+            ],
             "id": 3
         },
         {
-            "name": "Projeto2",
-            "budget": "10000",
+            "name": "Desenvolvimento do Site",
+            "budget": "60000",
             "category": {
-                "id": "4",
-                "name": "Planejamento"
+                "id": "2",
+                "name": "Desenvolvimento"
             },
-            "cost": 0,
-            "services": [],
+            "cost": 24200,
+            "services": [
+                {
+                    "name": "Contratação de Dev Front-End",
+                    "cost": 4600,
+                    "desc": "Responsável pelo desenvolvimento do layout da aplicação.",
+                    "id": "dea206b3-409d-4b3f-9493-4bc2d27466a2"
+                },
+                {
+                    "name": "Contratação de Dev Back-End",
+                    "cost": 4500,
+                    "desc": "Responsável pela manutenção da comunicação entre o Client e o Server.",
+                    "id": "25560b69-901c-4677-90db-786fd98c83a9"
+                },
+                {
+                    "name": "Contratação de Dev Full-Stack Pleno",
+                    "cost": 6000,
+                    "desc": "Responsável por auxiliar os profissionais Front-End e Back-End.",
+                    "id": "0b99c176-1a02-40a3-a0c1-dafcc02b8fb7"
+                },
+                {
+                    "name": "Contratação de Analista de Sistemas",
+                    "cost": "5000",
+                    "desc": "Reponsável pela administração do banco de dados.",
+                    "id": "2557ef1f-a088-46e8-8950-0c1386dc2f54"
+                },
+                {
+                    "name": "Contratação de Dev PHP",
+                    "cost": "4100",
+                    "desc": "Reponsável por criar um sistema de envio e gerenciamento de Emails.",
+                    "id": "11k4xb08-b316-4f45-luf5-573empy6f438"
+                }
+            ],
             "id": 4
         }
     ],
