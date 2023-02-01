@@ -14,7 +14,7 @@
 ![luk4x-repo-status](https://img.shields.io/badge/Status-Finished-lightgrey?style=for-the-badge&logo=headspace&logoColor=green&color=lightgrey)
 ![luk4x-repo-license](https://img.shields.io/github/license/Luk4x/iManager-json-server?style=for-the-badge&logo=unlicense&logoColor=lightgrey)
 # 🪙 iManager Project API
-> Acesse o projeto online **[AQUI](https://luk4x-imanager-json-server.herokuapp.com/)**
+> Acesse o projeto online **[AQUI](https://luk4x-imanager-json-server.onrender.com/)**
 
 <br>
 <p align="center">
