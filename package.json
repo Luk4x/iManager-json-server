@@ -4,7 +4,7 @@
     "description": "json-server for iManager project",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node index.js"
     },
     "keywords": [
         "json-server, node, javascript, iManager, REST API"
@@ -13,6 +13,8 @@
     "author": "Luk4x (Lucas Maciel)",
     "license": "MIT",
     "dependencies": {
+        "cors": "^2.8.5",
+        "json-serve": "^0.1.0",
         "json-server": "^0.17.0"
     }
 }
